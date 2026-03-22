@@ -10,7 +10,7 @@ public class Learnset {
 
 
         //basically it stores values in random order
-        //Hashing is used in this which means it stores elements as key-value pair
+
     set.add(45);
     set.add(11);
     set.add(11);
