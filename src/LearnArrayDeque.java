@@ -6,5 +6,14 @@ public class LearnArrayDeque {
 
         ArrayDeque<Integer> adq = new ArrayDeque<>();
 
+        //add in deque
+        adq.offer(23);
+
+        //add element in the head
+        adq.offerFirst(34);
+
+        //add element on the last position
+        adq.offerLast(45);
+
     }
 }
