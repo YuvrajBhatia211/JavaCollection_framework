@@ -15,5 +15,7 @@ public class LearnArrayDeque {
         //add element on the last position
         adq.offerLast(45);
 
+        System.out.println(adq);
+
     }
 }
