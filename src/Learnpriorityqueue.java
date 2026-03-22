@@ -4,6 +4,9 @@ import java.util.PriorityQueue;
 public class Learnpriorityqueue {
 
     public static void main(String[] args){
+        //add comparator will change the default priority of the queue
+        //like min heap will now follow max heap pattern
+        //if we add comparator then will return maximum element on the first position
         PriorityQueue<Integer>  pq = new PriorityQueue<>(Comparator.reverseOrder() );
 
         // adding elements
