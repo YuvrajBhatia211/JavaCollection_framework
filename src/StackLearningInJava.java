@@ -11,6 +11,7 @@ public class StackLearningInJava {
 
         //printing elements in stack
         System.out.println("Stack" + animals);
+        //peek is used to make share that which element in the stack is at the top
         System.out.println(animals.peek());
 
         //pop function removes last in first out object
